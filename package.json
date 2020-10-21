@@ -2,6 +2,9 @@
   "name": "monitor-karewa-client",
   "version": "0.2.0",
   "private": true,
+  "engines": {
+    "node": "12.x",
+  },
   "scripts": {
     "serve": "node node_modules/@vue/cli-service/bin/vue-cli-service.js serve",
     "build": "NODE_ENV=production SKIP_JOB_MANAGER=true node node_modules/@vue/cli-service/bin/vue-cli-service.js build --verbose",
