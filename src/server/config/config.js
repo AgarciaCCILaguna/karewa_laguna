@@ -37,7 +37,7 @@ const config = {
         defaults: defaults,
         app: app,
         mongo: {
-            url: process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/monitor_karewa_web_dev',
+            url: process.env.MONGODB_URI || 'mongodb+srv://agarcia:<password>@cluster0.kyni0.mongodb.net/<dbname>?retryWrites=true&w=majority',
             connectionOptions: {
                 usePushEach: true,
                 autoIndex: true, // Auto-build indexes
