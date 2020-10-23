@@ -84,7 +84,7 @@ const config = {
         defaults: defaults,
         app: app,
         mongo: {
-            url: 'mongodb://127.0.0.1:27017/monitor_karewa_web_dev',
+            url: 'mongodb+srv://agarcia:colmillo87lobo@cluster0.kyni0.mongodb.net/karewa_db?retryWrites=true&w=majority',
             connectionOptions: {
                 usePushEach: true,
                 autoIndex: true, // Auto-build indexes
